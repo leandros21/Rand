@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<!--
+css link
+-->
+<link rel="stylesheet" type="text/css" href="../html/stylesheet.css">
+  <title>Random Variables</title>
+</head>
+<body  onload="FunctionA(y,z);FunctionB();FunctionC(m);FunctionD(v)">
+<center>
+<h2>
+<p id="a"></p>
+
+<p id="b"></p>
+
+<p id="c"></p>
+
+<p id="d"></p>
+</h2>
+</center>
+   <script>
+  //variable y maximum random number default to 1000
+  var y= 1000;
+  //variable z minimum random number default to 21
+  var z=21;
+
+  //variable m which is counting how many characters the user wants
+  var m=6;
+
+ /*variable v multiplying the decimal number for randomised numbers bigger than 1, for
+   decimals bigger than 10 try to add a zero
+   for example: var v=100; or var v=10000;
+  */
+  var v=1000;
+  </script>
+  <script src="C:/Users/user/Desktop/AngularJS/raplugin.js"></script>
+</body>
+</html>
